@@ -18,7 +18,7 @@ public class PageHomeSophos extends PageObject {
 
     @WhenPageOpens
     public void waitUntilTitleAppears() {
-        element(btnTrabajaConNosotros).waitUntilVisible();
+        element(btnTrabajaConNosotros).waitUntilVisible(); 
     }
 
     public void validarHome() {
